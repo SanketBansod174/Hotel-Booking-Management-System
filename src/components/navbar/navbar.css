@@ -1,0 +1,72 @@
+.navbar {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.username {
+  display: flex;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  margin-top: 25px;
+  flex-direction: column;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.navButton {
+  margin-left: 100px;
+  border: none;
+  /* padding: 5px 10px; */
+  cursor: pointer;
+  color: #003580;
+  border-radius: 10%;
+  height: 40px;
+  width: 80px;
+}
+.user {
+  margin-left: 100px;
+  border: none;
+  /* padding: 5px 10px; */
+  cursor: pointer;
+background-color: #00358000;
+  border-radius: 10%;
+  height: 40px;
+  width: 80px;
+  color: rgb(250, 250, 250);
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navItems {
+  display: flex;
+  gap: 350px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.heading {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
