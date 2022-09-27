@@ -1,0 +1,30 @@
+.home {
+    /* display: flex; */
+  }
+  .home .homeContainer {
+    /* flex: 7; */
+  }
+  .home .homeContainer .widgets, .home .homeContainer .charts {
+    display: flex;
+    padding: 8px;
+    gap: 10px;
+  }
+  
+  .home .homeContainer .listContainer {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    /* padding: 20px; */
+    /* margin: 20px; */
+  }
+  .home .homeContainer .listContainer .listTitle {
+    font-weight: 500;
+    color: gray;
+    /* margin-bottom: 15px; */
+  }
+  .adminNav{
+    background-color: rgba(17, 41, 31, 0.335);
+    height: 120px;
+    /* width: 1200px; */
+    width: 100%;
+    /* border-radius: 10px; */
+  }

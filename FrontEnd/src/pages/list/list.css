@@ -1,0 +1,107 @@
+.navb{
+  background-image: url("./images/planebanner.png");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+
+}
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+   /* display: flex;  */
+  gap: 20px;
+}
+
+.listSearch {
+  /* flex: 1; */
+  background-color: #fea602;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 0px;
+ 
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lsTitle{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem>label{
+  font-size: 12px;
+}
+
+
+.lsItem>span{
+  height: 30px;
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 250px;
+  border-color: aqua;
+  
+}
+
+
+
+
+
+.lsOptionInput{
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aqua;
+}
+
+.lsdestinationInput{
+  border-radius: 10px;
+  border-color: aqua;
+  height: 30px;
+}
+
+
+
+.listSearch>button{
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  width: 10%;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+
+.date {
+  justify-content: space-around;
+  position: absolute;
+  top: 83px;
+  z-index: 2;
+  border-radius: 15px;
+}

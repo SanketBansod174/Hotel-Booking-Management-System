@@ -1,0 +1,8 @@
+.dashlist {
+  /* display: flex; */
+  width: 100%;
+}
+.dashlist .dashlistContainer {
+  /* flex: 8; */
+  /* gap: 10px; */
+}

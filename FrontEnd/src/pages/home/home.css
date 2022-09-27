@@ -1,0 +1,24 @@
+.head{
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.homeContainer{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+  }
